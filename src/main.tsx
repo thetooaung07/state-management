@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { CustomHookReview } from "./customHooksReview/CustomHookReview.tsx";
 import "./index.css";
+import { ToDoApp } from "./todoReducerPractice/ToDoApp.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <CustomHookReview />
+    <ToDoApp />
   </React.StrictMode>
 );
